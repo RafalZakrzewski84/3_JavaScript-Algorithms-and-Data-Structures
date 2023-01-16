@@ -6,7 +6,7 @@ console.log('############_29_Frequency_Counter_Annagram');
 // the letters of another, such as cinema, formed from iceman.
 
 function validAnagram(str1, str2) {
-	if (str1 == '' && str2 == '') return true;
+	if (str1 == str2) return true;
 	let charsArrFromStr1 = str1.split('');
 	let charsArrFromStr2 = str2.split('');
 	// console.log(arrFromStr1, arrFromStr2);

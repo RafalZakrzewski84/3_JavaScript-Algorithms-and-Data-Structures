@@ -24,7 +24,7 @@ console.log(areArraysTheSame([1, 2, 1], [4, 4, 1]));
 //REFACTORED Time Complexity - O(n) - 3 separate loops
 //Frequency Counter - is object which holds profile of array, break down content of array
 console.log('REFACTORED');
-function areArraysTheSameFrequency(arr1, arr2) {
+function areArraysTheSameRefactored(arr1, arr2) {
 	if (arr1.length !== arr2.length) return false;
 	let frequencyCounterArr1 = {};
 	let frequencyCounterArr2 = {};
@@ -50,12 +50,12 @@ function areArraysTheSameFrequency(arr1, arr2) {
 	return true;
 }
 
-console.log(areArraysTheSameFrequency([1, 2, 3], [4, 1, 9]));
-console.log(areArraysTheSameFrequency([1, 2, 3, 4], [1, 9, 4, 17]));
-console.log(areArraysTheSameFrequency([1, 2, 3, 25], [1, 9, 4, 5]));
-console.log(areArraysTheSameFrequency([1, 2, 3], [1, 9]));
-console.log(areArraysTheSameFrequency([1, 2, 1], [4, 4, 1]));
-console.log(areArraysTheSameFrequency([1, 2, 3, 4], [1, 9, 4, 16, 16]));
-console.log(areArraysTheSameFrequency([1, 2, 2], [4, 4, 1]));
+console.log(areArraysTheSameRefactored([1, 2, 3], [4, 1, 9]));
+console.log(areArraysTheSameRefactored([1, 2, 3, 4], [1, 9, 4, 17]));
+console.log(areArraysTheSameRefactored([1, 2, 3, 25], [1, 9, 4, 5]));
+console.log(areArraysTheSameRefactored([1, 2, 3], [1, 9]));
+console.log(areArraysTheSameRefactored([1, 2, 1], [4, 4, 1]));
+console.log(areArraysTheSameRefactored([1, 2, 3, 4], [1, 9, 4, 16, 16]));
+console.log(areArraysTheSameRefactored([1, 2, 2], [4, 4, 1]));
 
 console.log('############_28_Frequency_Counter_Pattern');
