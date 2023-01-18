@@ -39,7 +39,7 @@ console.log(maxSubarraySum([], 4)); // null
 console.log(maxSubarraySum([2, 6, 9, 2, 1, 8, 5, 6, 3], 3)); // 19
 
 //REFACTORED
-//Time Complexity - O(N^2)
+//Time Complexity - O(N)
 console.log('REFACTORED');
 function maxSubarraySumRefactored(arr, num) {
 	console.log('start func');
